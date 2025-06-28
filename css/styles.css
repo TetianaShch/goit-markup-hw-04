@@ -4,7 +4,7 @@ body {
     background-color: #ffffff;
 }
 
-/* reset */
+/*#region reset*/
 *,
 *::before,
 *::after{
@@ -33,15 +33,16 @@ img {
     max-width: 100%;
     height: auto;
 }
+/*#endregion reset*/
 
-/* common */
+/*common*/
 .container{
     max-width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
 } 
 
-/* header */
+/*#region header*/
 .header{
     border-bottom: 1px solid #e7e9fc;
 }
@@ -140,13 +141,19 @@ color:#2e2f42;
     padding: 24px 0;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+/*#endregion header*/
 
-
-/* main section */
-.hero{
-    background-color: #2e2f42; 
-    text-align: center;
-    padding: 188px 0;
+/*#region hero section*/
+.hero {
+  background-color: #2e2f42;
+  padding: 188px 0;
+  background-image: 
+  linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+  url(/images/office.jpg);
+  background-size: 1440px auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hero-title{
@@ -180,8 +187,9 @@ color:#2e2f42;
 .button:focus{
     background-color:#404bbf;
 }
+/*#endregion hero section*/
 
-/* benefits section */
+/*#region benefits section*/
 
 .benefits,
 .team,
@@ -240,7 +248,17 @@ color:#2e2f42;
     color:#434455;
 }
 
-/* team section */
+.icon{
+    width: 264px;
+    height: 112px;
+    padding: 24px 100px;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background-color: #f4f4fd;
+}
+/*#endregion benefits section */
+
+/*#region team section*/
 .team{
     background-color:#f4f4fd;
 }
@@ -264,7 +282,15 @@ color:#2e2f42;
     padding: 0px 0px 32px 0px;
 }
 
-/* portfolio section */
+.team-icon{
+    width: 40px;
+    height: 40px;
+    display: flex;
+}
+
+/*#endregion team section*/
+
+/*#region portfolio section*/
 
 .portfolio-image{
     box-sizing: border-box;
@@ -288,7 +314,10 @@ color:#2e2f42;
     border: 1px solid #e7e9fc;
     border-top: none;
 }
-/* footer */
+/*#endregion portfolio section*/
+
+/*#region footer */
+
 
 .footer{
 background-color: #2e2f42;
@@ -318,6 +347,9 @@ padding: 100px 0;
     width: 264px;
     padding-top: 8px;
 }
+
+/*#endregion footer */
+
 .visually-hidden{
     position: absolute;
     width: 1px;
