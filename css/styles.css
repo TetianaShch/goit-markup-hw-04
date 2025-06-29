@@ -149,7 +149,7 @@ img {
     padding: 188px 0;
     background-image: 
     linear-gradient(rgba(46, 47, 66, 0.7),
-    rgba(46, 47, 66, 0.7)), url(/images/office.jpg);
+    rgba(46, 47, 66, 0.7)), url(../images/office.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -262,10 +262,6 @@ img {
     background-color:#f4f4fd;
 }
 
-.team-container{
-    
-}
-
 .team-menu{
     width: 100%;
     text-align: center;
@@ -281,6 +277,7 @@ img {
 .team-list-item{
     background-color:#ffffff;
     border-radius: 0 0 4px 4px;
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-navigation,
