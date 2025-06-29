@@ -298,9 +298,9 @@ img {
 .link-icon{
     fill:#f4f4fd;
 }
+
 .team-navigation-list-link,
-.footer-nav-list-link
-{
+.footer-nav-list-link{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -311,7 +311,6 @@ img {
     text-decoration: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 
 .team-navigation-list-link:hover,
 .team-navigation-list-link:focus{
@@ -335,12 +334,14 @@ img {
 
 .portfolio-list-item{
     width: calc((100% - 48px) / 3);
+    
 }
 
 .portfolio-list-image{
     position: relative;
     overflow: hidden;
 }
+
 .overlay{
     position: absolute;
     top: 0;
@@ -353,11 +354,17 @@ img {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
+
 .portfolio-list-image:hover .overlay{
     transform: translateY(0%);
+    
+}
+
+.portfolio-list-item:hover{
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-menu{
