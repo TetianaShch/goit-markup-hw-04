@@ -147,6 +147,8 @@ img {
 /*#region hero section*/
 .hero {
     background-color: #2e2f42;
+    max-width: 1440px;
+    margin: 0 auto;
     padding: 188px 0;
     background-image: 
     linear-gradient(rgba(46, 47, 66, 0.7),
@@ -293,6 +295,9 @@ img {
     gap: 24px;
 }
 
+.link-icon{
+    fill:#f4f4fd;
+}
 .team-navigation-list-link,
 .footer-nav-list-link
 {
@@ -307,7 +312,8 @@ img {
 }
 
 
-.team-navigation-list-link:hover{
+.team-navigation-list-link:hover,
+.team-navigation-list-link:focus{
     background-color: #404bbf;
 }
 /*#endregion team section*/
@@ -419,9 +425,9 @@ padding: 100px 0;
     gap: 24px;
 }
 
-.footer-nav-list-link:hover {
+.footer-nav-list-link:hover,
+.footer-nav-list-link:focus {
     background-color:#31d0aa;
-
 }
 /*#endregion footer */
 
